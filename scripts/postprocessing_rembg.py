@@ -8,7 +8,6 @@ import os
 
 models = [
     "None",
-    "isnet-general-use",
     "u2net",
     "u2netp",
     "u2net_human_seg",
@@ -16,6 +15,14 @@ models = [
     "silueta",
     "isnet-general-use",
     "isnet-anime",
+    "sam",
+    "birefnet-general",
+    "birefnet-general-lite",
+    "birefnet-portrait",
+    "birefnet-dis",
+    "birefnet-hrsod",
+    "birefnet-cod",
+    "birefnet-massive",
 ]
 
 class ScriptPostprocessingUpscale(scripts_postprocessing.ScriptPostprocessing):
